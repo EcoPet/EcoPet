@@ -27,3 +27,7 @@ ExportedObj/
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
+
+# Please no standard assets!
+Assets/Standard Assets/*
+Assets/Standard Assets*
