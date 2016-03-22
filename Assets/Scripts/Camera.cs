@@ -40,9 +40,7 @@ public class Camera : MonoBehaviour {
 		transform.position -= currentRotation * Vector3.forward * distance;
 
 		// Set the height of the camera
-//		 transform.position = new Vector3 (transform.position.x, currentHeight, transform.position.z);
-		Vector3 newPosition = new Vector3 (transform.position.x, currentHeight, transform.position.z);
-		transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime);
+		 transform.position = new Vector3 (transform.position.x, currentHeight, transform.position.z);
 	
 
 		// Always look at the target
