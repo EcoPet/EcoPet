@@ -325,9 +325,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 434214}
   - 95: {fileID: 9511298}
+  - 114: {fileID: 11490664}
   m_Layer: 0
   m_Name: Fish Cluster
-  m_TagString: Untagged
+  m_TagString: Fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6196,7 +6197,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 306.72, y: 111.9, z: 36.883926}
+  m_LocalPosition: {x: -91.00189, y: -32.111725, z: -127.39418}
   m_LocalScale: {x: 34.795723, y: 34.79573, z: 34.79573}
   m_Children:
   - {fileID: 469614}
@@ -8879,6 +8880,22 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11490664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6910f5ff28d714077a0dd50ac4fb4e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 0}
+  axis: {x: 0, y: 1, z: 0}
+  radius: 500
+  radiusSpeed: 0.5
+  rotationSpeed: 80
 --- !u!137 &13706560
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

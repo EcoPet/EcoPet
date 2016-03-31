@@ -2330,9 +2330,10 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 401248}
+  - 114: {fileID: 11445048}
   m_Layer: 0
   m_Name: PocketBerryFishCluster
-  m_TagString: Untagged
+  m_TagString: Fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2398,7 +2399,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 198224}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 146.58157, y: 89.72006, z: 327.58105}
+  m_LocalPosition: {x: -135.92032, y: -27.791664, z: 134.33359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 420440}
@@ -4527,6 +4528,22 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 1
+--- !u!114 &11445048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6910f5ff28d714077a0dd50ac4fb4e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 0}
+  axis: {x: 0, y: 1, z: 0}
+  radius: 500
+  radiusSpeed: 0.5
+  rotationSpeed: 15
 --- !u!137 &13701794
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
