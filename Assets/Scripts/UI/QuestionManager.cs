@@ -56,33 +56,33 @@ public class QuestionManager : MonoBehaviour {
 
 	private void LoadQuestions() {
 		// Fish population Q/A
-//		questionsList.Add (new Question(
-//			"Do you eat sustainable sourced fish?",
-//			"All the time",
-//			"Sometimes",
-//			"Never",
-//			QuestionType.FishPopulation));
-//
-//		questionsList.Add (new Question(
-//			"How often do you go fishing?",
-//			"All the time",
-//			"Sometimes",
-//			"Never",
-//			QuestionType.FishPopulation));
-//
-//		questionsList.Add (new Question(
-//			"How often do you eat salmon?",
-//			"Every day",
-//			"Once a week",
-//			"Once a month",
-//			QuestionType.FishPopulation));
-//
-//		questionsList.Add (new Question(
-//			"How many of your meals normally contain seafood?",
-//			"Most of them",
-//			"Some of them",
-//			"None of them",
-//			QuestionType.FishPopulation));
+		questionsList.Add (new Question(
+			"Do you eat sustainable sourced fish?",
+			"All the time",
+			"Sometimes",
+			"Never",
+			QuestionType.FishPopulation));
+
+		questionsList.Add (new Question(
+			"How often do you go fishing?",
+			"All the time",
+			"Sometimes",
+			"Never",
+			QuestionType.FishPopulation));
+
+		questionsList.Add (new Question(
+			"How often do you eat salmon?",
+			"Every day",
+			"Once a week",
+			"Once a month",
+			QuestionType.FishPopulation));
+
+		questionsList.Add (new Question(
+			"How many of your meals normally contain seafood?",
+			"Most of them",
+			"Some of them",
+			"None of them",
+			QuestionType.FishPopulation));
 
 
 
@@ -103,33 +103,33 @@ public class QuestionManager : MonoBehaviour {
 
 
 		// Pollution Q/A
-//		questionsList.Add (new Question(
-//			"How many packed goods did you consume over the past 2 days?",
-//			"More than 8",
-//			"3-8",
-//			"Less than 3",
-//			QuestionType.Pollution));
-//
-//		questionsList.Add (new Question(
-//			"Do you ever spit your gum out on the road?",
-//			"Always!",
-//			"Whenever I cannot stand the taste of flavorless gum in my mouth",
-//			"Never",
-//			QuestionType.Pollution));
-//
-//		questionsList.Add (new Question(
-//			"How many non-recyclable products do you use every day?",
-//			"More than 6",
-//			"2-5",
-//			"Less than 2",
-//			QuestionType.Pollution));
-//
-//		questionsList.Add (new Question(
-//			"How many packaged goods did you use today?",
-//			"More than 10",
-//			"5-9",
-//			"1-4",
-//			QuestionType.Pollution));
+		questionsList.Add (new Question(
+			"How many packed goods did you consume over the past 2 days?",
+			"More than 8",
+			"3-8",
+			"Less than 3",
+			QuestionType.Pollution));
+
+		questionsList.Add (new Question(
+			"Do you ever spit your gum out on the road?",
+			"Always!",
+			"Whenever I cannot stand the taste of flavorless gum in my mouth",
+			"Never",
+			QuestionType.Pollution));
+
+		questionsList.Add (new Question(
+			"How many non-recyclable products do you use every day?",
+			"More than 6",
+			"2-5",
+			"Less than 2",
+			QuestionType.Pollution));
+
+		questionsList.Add (new Question(
+			"How many packaged goods did you use today?",
+			"More than 10",
+			"5-9",
+			"1-4",
+			QuestionType.Pollution));
 		
 	}
 
