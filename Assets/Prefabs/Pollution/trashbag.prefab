@@ -12,6 +12,7 @@ GameObject:
   - 23: {fileID: 2313090}
   - 111: {fileID: 11100180}
   - 114: {fileID: 11488424}
+  - 135: {fileID: 13547906}
   m_Layer: 0
   m_Name: trashbag
   m_TagString: Pollution
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 130704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -96.847, y: -46.385002, z: 138.32}
+  m_LocalPosition: {x: -27.5, y: 3.88, z: 138.32}
   m_LocalScale: {x: 3745.9387, y: 3745.9355, z: 3745.9355}
   m_Children: []
   m_Father: {fileID: 0}
@@ -90,6 +91,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 2
+--- !u!135 &13547906
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130704}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.003807613
+  m_Center: {x: 0.000030246098, y: 0.0038076134, z: -0.00011014263}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

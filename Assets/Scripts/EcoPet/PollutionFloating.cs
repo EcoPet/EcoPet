@@ -9,11 +9,9 @@ public class PollutionFloating : MonoBehaviour {
 	private float rotX;
 	private float rotY;
 	private float rotZ;
-	private bool isPaused;
 
 	// Use this for initialization
 	void Start () {
-		isPaused = false;
 		Restart ();
 	}
 	
@@ -36,15 +34,6 @@ public class PollutionFloating : MonoBehaviour {
 		rotX = Random.value * 100;
 		rotY = Random.value * 100;
 		rotZ = Random.value * 100;
-	}
-
-	public void PauseLerping() {
-		isPaused = true;
-	}
-
-	public void ResumeLerping() {
-		isPaused = false;
-		Restart ();
 	}
 
 }

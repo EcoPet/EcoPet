@@ -153,10 +153,9 @@ public class EcoSystemManager : MonoBehaviour {
 		foreach (Transform child in pollutionCollection) {
 			PollutionFloating script = child.gameObject.GetComponent<PollutionFloating> ();
 			if (pausePollutionFloating) {
-				script.PauseLerping ();
 				continue;
 			}
-			script.ResumeLerping ();
+			script.Restart ();
 		}
 	}
 

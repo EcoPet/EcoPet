@@ -325,7 +325,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 434214}
   - 95: {fileID: 9511298}
-  - 114: {fileID: 11490664}
+  - 114: {fileID: 11448084}
   m_Layer: 0
   m_Name: Fish Cluster
   m_TagString: Fish
@@ -6197,8 +6197,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -91.00189, y: -32.111725, z: -127.39418}
-  m_LocalScale: {x: 34.795723, y: 34.79573, z: 34.79573}
+  m_LocalPosition: {x: -88.767, y: -28.638, z: -132.16}
+  m_LocalScale: {x: 41.832943, y: 41.83295, z: 41.83295}
   m_Children:
   - {fileID: 469614}
   - {fileID: 485560}
@@ -8880,7 +8880,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11490664
+--- !u!114 &11448084
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

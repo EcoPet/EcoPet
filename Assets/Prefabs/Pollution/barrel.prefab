@@ -12,6 +12,7 @@ GameObject:
   - 23: {fileID: 2315616}
   - 111: {fileID: 11106612}
   - 114: {fileID: 11404654}
+  - 136: {fileID: 13664022}
   m_Layer: 0
   m_Name: barrel
   m_TagString: Pollution
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -96.882, y: 4.8, z: 164.4}
+  m_LocalPosition: {x: 530, y: 11.59, z: 353.7}
   m_LocalScale: {x: 2383.6426, y: 2383.641, z: 2383.641}
   m_Children: []
   m_Father: {fileID: 0}
@@ -90,6 +91,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 2
+--- !u!136 &13664022
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.002864077
+  m_Height: 0.009616832
+  m_Direction: 1
+  m_Center: {x: 0.0000000023283064, y: 0.004808416, z: 0.000000017811544}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
